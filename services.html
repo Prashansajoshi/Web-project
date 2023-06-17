@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Our Services - Mental Health Website</title>
+    <style>
+      /* CSS styles go here */
+    nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav img{
+    width: 150px;
+    }
+
+    .nav-links{
+    flex: 1;
+    text-align: right;
+    }
+
+    .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+
+    .nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    }
+
+    .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after{
+    width: 100%;
+    }
+
+    header {
+        background-color: #0099cc;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+     }
+    h1 {
+        margin-top: 0;
+    }
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+      h2 {
+        margin-top: 30px;
+      }
+      ul {
+        margin-left: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      a {
+        color: #0099cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .service {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #fff;
+      }
+      .service h3 {
+        margin-top: 0;
+      }
+      .service p {
+        margin-bottom: 10px;
+      }
+      .service a {
+        display: block;
+        margin-top: 10px;
+      }
+
+      /*Footer*/
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-bottom-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col1 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col1 p{
+    color: #ccc;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    list-style: none;
+    margin-bottom: 12px;
+    color: #fff;
+}
+    </style>
+  </head>
+  <body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/image2.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="talk.html">LET'S TALK</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <header>
+      <h1>Our Services</h1>
+    </header>
+    <main>
+      <div class="service">
+        <h3>Counseling and Therapy</h3>
+        <p>We offer individual and group counseling sessions with licensed mental health professionals. Our therapists use evidence-based techniques to help clients manage symptoms and improve their mental well-being.</p>
+        <a href="counseling.html">Learn more about our counseling services</a>
+      </div>
+      <div class="service">
+        <h3>Online Self-Help Courses</h3>
+        <p>We offer a range of self-help courses on topics such as stress management, mindfulness, and coping with anxiety and depression. These courses are designed to help individuals build the skills they need to improve their mental well-being.</p>
+        <a href="courses.html">View our online self-help courses</a>
+      </div>
+      <div class="service">
+        <h3>Informational Articles and Resources</h3>
+        <p>Our website offers a wealth of informational articles and resources on various mental health topics. These resources are written and reviewed by mental health professionals and are designed to be accessible and informative.</p>
+        <a href="resources.html">Browse our mental health resources</a>
+      </div>
+      <div class="service">
+        <h3>Community Forums</h3>
+        <p>We offer online forums where individuals can connect with others who are going through similar experiences. These forums provide a safe and supportive space for individuals to share their stories and offer support to one another.</p>
+        <a href="forums.html">Join our mental health community forums</a>
+      </div>
+    </main>
+
+    <!--Footer Section Starts-->
+    <section class="footer">
+       
+
+      <div class="row1">
+          <div class="col1">
+              <img src="Images/image2.png" alt="" class="logo">
+              <p>"You are not alone. If you're struggling with your mental health, help is available."</p>
+          </div>
+          <div class="col1">
+              <h3>Office</h3>
+              <p>Bagbazar, Kathmandu</p>
+              <P class="email-id">xyz@gmail.com</P>
+              <h4>+977-9876543210</h4>
+          </div>
+          <div class="col1">
+              <h3>Links</h3>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="talk.html">Let's Talk</a></li>
+              </ul>
+          </div>
+          <div class="col1">
+              <h3>Social</h3>
+              <div class="icons">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-linkedin"></i>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Footer Section Ends-->
+  </body>
+</html>

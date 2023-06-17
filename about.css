@@ -1,0 +1,157 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  header {
+    background-color: #0099cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2 {
+    margin-top: 30px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  a {
+    color: #0099cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-bottom-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col1 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col1 p{
+    color: #ccc;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    list-style: none;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.gfg {
+  margin: 3%;
+  position: relative;
+  display: block;
+}
+
+.first-txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+}
+
+.second-txt {
+  font-size: 50px;
+  word-break: break-all;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}

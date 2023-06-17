@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Let's Talk - Mental Health Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      /* CSS styles go here */
+
+    nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    nav img{
+    width: 150px;
+    }
+
+    .nav-links{
+    flex: 1;
+    text-align: right;
+    }
+
+    .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+
+    .nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    }
+
+    .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after{
+    width: 100%;
+    }
+
+ 
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f5f5f5;
+      }
+      header {
+        background-color: #0099cc;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h2 {
+        margin-top: 30px;
+      }
+      .lets-talk {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .lets-talk-box {
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        background-color: #fff;
+        box-shadow: 0 0 10px #ccc;
+      }
+      .lets-talk-box h3 {
+        margin-top: 0;
+      }
+      .lets-talk-box p {
+        margin-bottom: 10px;
+      }
+      .lets-talk-box a {
+        display: block;
+        margin-top: 10px;
+      }
+
+      /* form starts */
+      form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 1.2rem;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			font-size: 1rem;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 1.2rem;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+    /*Footer*/
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-bottom-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col1 h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col1 p{
+    color: #ccc;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+    list-style: none;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.info-icons{
+  list-style: none;
+  margin-bottom: 12px;
+  color: gray;
+  padding: 10px;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/image2.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="talk.html">LET'S TALK</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <header>
+      <h1>Let's Talk</h1>
+    </header>
+
+    <form>
+      <h2>Let's talk about your problem</h2>
+      <p>I'll get in touch with you to schedule an appointment for you.</p>
+
+      <div class="info-icon">
+        <i class="fa fa-envelope" aria-hidden="true">xyz@gmail.com &nbsp; &nbsp; &nbsp;</i> 
+        <i class="fa fa-phone" aria-hidden="true">+977-9876543210</i>
+
+      </div>
+      
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <input type="submit" value="Submit Application">
+          </form>
+
+    <main>
+      <div class="lets-talk">
+        <div class="lets-talk-box">
+          <h3>Call Us</h3>
+          <p>Speak to a mental health professional by phone at any time of day or night.</p>
+          <a href="tel:1-800-123-4567">1-800-123-4567</a>
+        </div>
+        <div class="lets-talk-box">
+          <h3>Chat Online</h3>
+          <p>Connect with a trained volunteer who can provide support and resources for mental health.</p>
+          <a href="https://www.mentalhealthchat.org/">Start Chatting</a>
+        </div>
+        <div class="lets-talk-box">
+          <h3>Text Us</h3>
+          <p>Get confidential support and resources for mental health via text message.</p>
+          <a href="sms:741741">Text "START" to 741741</a>
+        </div>
+      </div>
+    </main>
+
+   <!--Footer Section Starts-->
+   <section class="footer">
+       
+
+    <div class="row1">
+        <div class="col1">
+            <img src="Images/image2.png" alt="" class="logo">
+            <p>"You are not alone. If you're struggling with your mental health, help is available."</p>
+        </div>
+        <div class="col1">
+            <h3>Office</h3>
+            <p>Bagbazar, Kathmandu</p>
+            <P class="email-id">xyz@gmail.com</P>
+            <h4>+977-9876543210</h4>
+        </div>
+        <div class="col1">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="talk.html">Let's Talk</a></li>
+            </ul>
+        </div>
+        <div class="col1">
+            <h3>Social</h3>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Section Ends-->
+  </body>
+</html>
